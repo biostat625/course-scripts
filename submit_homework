@@ -9,7 +9,7 @@ fi
 
 if [ ! -d "$1" ]; then
     echo "Error: homework directory does not exisit: $1"
-    exist 1
+    exit 1
 fi
 
 hwdir=/afs/umich.edu/user/j/i/jianghui/biostat625_submission/$USER
