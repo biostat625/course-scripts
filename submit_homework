@@ -15,7 +15,7 @@ fi
 hwdir=/afs/umich.edu/user/j/i/jianghui/biostat625_submission/$USER
 
 tar cz $1 > $1.tar.gz
-cp $1.tar.gz hwdir
+cp $1.tar.gz $hwdir
 
 
 
